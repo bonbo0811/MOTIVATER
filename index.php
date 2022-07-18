@@ -9,6 +9,15 @@
     <title>MOTIVATER</title>
 </head>
 <body>
-    <h1>MOTIVATER</h1>
+    <div class="center">
+        <h1 class="mt-5 mb-2">MOTIVATER</h1>
+        <h3>モチベーションを管理しよう</h3>
+        <p class="mt-5">Missions</p>
+    </div>
+        <ol class="mission m-auto col-md-4">
+            <li><a href="">ガタイを良くする！</a></li>
+            <li><a href="">毎日プログラミングを学ぶ！</a></li>
+            <li><a href="">英語の勉強をする</a></li>
+        </ol>
 </body>
 </html>
