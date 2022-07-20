@@ -22,7 +22,7 @@
                 <a class="nav-link active" aria-current="page" href="index.php">ホーム</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">目標追加</a>
+                <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -44,16 +44,17 @@
 
     <div class="center">
         <h1 class="mt-5 mb-2">MOTIVATER</h1>
-        <h3>モチベーションを管理しよう</h3>
-        <p class="mt-5">Missions</p>
+        <p class="mt-4 mb-1">Mission</p>
+        <h3 class="m-auto select-mission col-md-4 py-1">ガタイをよくする！</h3>
+
+        <div class="row col-md-8 m-auto mt-3">
+            <div class="col-md-4">
+                リスト
+            </div>
+            <div class="col-md-8">
+                グラフ
+            </div>
+        </div>
     </div>
-        <ol class="mission m-auto col-md-5 px-5">
-            <a href="detail.php"><li>ガタイを良くする！</li></a>
-            <a href=""><li>毎日プログラミングを学ぶ！</li></a>
-            <a href=""><li>英語の勉強をする</li></a>
-            <a href=""><li>excelの勉強する</li></a>
-            <a href=""><li>ホワイトニング</li></a>
-            <a href=""><li>断捨離を行う</li></a>
-        </ol>
 </body>
 </html>
