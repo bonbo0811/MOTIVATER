@@ -45,14 +45,22 @@
     <div class="center">
         <h1 class="mt-5 mb-2">MOTIVATER</h1>
         <p class="mt-4 mb-1">Mission</p>
-        <h3 class="m-auto select-mission col-md-4 py-1">ガタイをよくする！</h3>
+        <h3 class="m-auto select-mission col-md-4 mb-3 py-1">ガタイをよくする！</h3>
 
-        <div class="row col-md-8 m-auto mt-3">
-            <div class="col-md-4">
-                リスト
+        <div class="row col-md-9 m-auto mt-3">
+            <div class="Target col-md-4">
+                <p class="mb-1">Target</p>
+                <a href="" class="btn btn-sm btn-primary">追加</a>
+                    <ol class="mission text-start px-1">
+                        <a href=""><li>ダンベル200回</li></a>
+                        <a href=""><li>腹筋100回</li></a>
+                        <a href=""><li>背筋50回</li></a>
+                        <a href=""><li>ストレッチ（足）</li></a>
+                        <a href=""><li>プロテインを飲む</li></a>
+                    </ol>
             </div>
-            <div class="col-md-8">
-                グラフ
+            <div class="Graph col-md-8">
+                <p class="mb-1">Graph</p>
             </div>
         </div>
     </div>
