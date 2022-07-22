@@ -21,7 +21,10 @@
                 </div>
                 <p class="fw-bold mt-1 mb-1">7月22日</p>
                     <ol class="mission text-start px-1">
-                        <a href=""><li>ダンベル200回</li></a>
+                        <a href="" data-bs-toggle="modal" data-bs-target="#modal1"><li>ダンベル200回</li></a>
+                        <?php
+                            include_once('./Modals/Target-modal.php');
+                        ?>
                         <a href=""><li>腹筋100回</li></a>
                         <a href=""><li>背筋50回</li></a>
                         <a href=""><li>ストレッチ（足）</li></a>
@@ -45,10 +48,10 @@
                         <tr>
                             <td></td>
                             <td></td>
-                            <td>1</td>
+                            <td>1<img src="./images/GoodJob.png" alt="達成"></td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>4<img src="./images/bad.png" alt="失敗"></td>
                             <td>5</td>
                         </tr>
                         <tr>
