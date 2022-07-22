@@ -95,6 +95,7 @@ th {
     text-align: center;
 }
 td {
+    position: relative;
     font-size: small;
     text-align: left;
     height: 50px;
@@ -107,6 +108,14 @@ th:nth-of-type(1), td:nth-of-type(1) {
 }
 th:nth-of-type(7), td:nth-of-type(7) {
     color: blue;
+}
+
+.table td img{
+    height: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
