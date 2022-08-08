@@ -22,7 +22,9 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <a href=" " class="btn btn-primary">完了</a>
+                <!-- <a href=" " class="btn btn-primary">完了</a>
+                <a href=" " class="btn  btn-outline-success">編集</a> -->
+                <button class="btn btn-primary">完了</button>
                 <a href=" " class="btn  btn-outline-success">編集</a>
             </div>
         </div>
