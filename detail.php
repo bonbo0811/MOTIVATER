@@ -16,20 +16,22 @@
         <div class="row col-md-8 m-auto mt-3">
             <div class="Target col-md-4">
                 <span class="mb-1">Target</span>
-                <div class="text-end">
-                    <a href="" class="me-3 btn btn-sm btn-primary">追加</a>
-                </div>
-                <p class="fw-bold mt-1 mb-1">7月22日</p>
+                <div class="mt-3">
+                    <p class="fw-bold mt-1 mb-1">7月22日</p>
+                    <ol class="addmission col-md-5 px-1">
+                        <a href=""><li>ミッション追加</li></a>
+                    </ol>
                     <ol class="mission text-start px-1">
                         <a href="" data-bs-toggle="modal" data-bs-target="#modal1"><li>ダンベル200回</li></a>
                         <?php
                             include_once('./Modals/Target-modal.php');
                         ?>
-                        <a href=""><li>腹筋100回</li></a>
+                        <a id="switch" href=""><li>腹筋100回</li></a>
                         <a href=""><li>背筋50回</li></a>
                         <a href=""><li>ストレッチ（足）</li></a>
                         <a href=""><li>プロテインを飲む</li></a>
                     </ol>
+                </div>
             </div>
             <div class="Calendar col-md-8">
                 <p class="mb-1">Calendar</p>
@@ -51,7 +53,7 @@
                             <td>1<img src="./images/GoodJob.png" alt="達成"></td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4<img src="./images/bad.png" alt="失敗"></td>
+                            <td>4<img class="bad" src="./images/bad.png" alt="失敗"></td>
                             <td>5</td>
                         </tr>
                         <tr>
@@ -95,6 +97,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./JavaScript/app.js"></script>
 
     <?php 
     include_once('./Parts/footer.php');
