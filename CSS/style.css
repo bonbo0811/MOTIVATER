@@ -171,11 +171,7 @@ th:nth-of-type(7), td:nth-of-type(7) {
     transform: translate(-50%, -50%);
 }
 
-.bad{
-    display: none;
-}
-
-.good{
+.imgnone{
     display: none;
 }
 
