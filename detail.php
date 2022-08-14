@@ -18,18 +18,17 @@
                 <span class="mb-1">Target</span>
                 <div class="mt-3">
                     <p class="fw-bold mt-1 mb-1">7月22日</p>
-                    <ol class="addmission col-md-5 px-1">
-                        <a href=""><li>ミッション追加</li></a>
-                    </ol>
-                    <ol class="mission text-start px-1">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#modal1"><li>ダンベル200回</li></a>
+                    <ol id="switch" class="mission text-start px-1">
+                        <!-- <a href="" data-bs-toggle="modal" data-bs-target="#modal1"><li>ダンベル200回</li></a> -->
                         <?php
                             include_once('./Modals/Target-modal.php');
                         ?>
-                        <a id="switch" href=""><li>腹筋100回</li></a>
-                        <a href=""><li>背筋50回</li></a>
-                        <a href=""><li>ストレッチ（足）</li></a>
-                        <a href=""><li>プロテインを飲む</li></a>
+                        <a class="col-md-8" href="" data-tab="0"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">ダンベル200回</li></a>
+                        <a class="col-md-8" href="" data-tab="0"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">腹筋100回</li></a>
+                        <a class="col-md-8" href="" data-tab="1"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">背筋50回</li></a>
+                        <a class="col-md-8" href="" data-tab="1"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">ストレッチ（足）</li></a>
+                        <a class="col-md-8" href="" data-tab="1"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">背筋50回</li></a>
+                        <a class="col-md-8" href="" data-tab="1"><li><img  class="imgnone d-inline-block align-text-top me-3" src="images/bad.png" alt="アイコン" width="20" height="20">プロテインを飲む</li></a>
                     </ol>
                 </div>
             </div>
@@ -53,7 +52,7 @@
                             <td>1<img src="./images/GoodJob.png" alt="達成"></td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4<img class="bad" src="./images/bad.png" alt="失敗"></td>
+                            <td>4<img class="none" src="./images/bad.png" alt="失敗"></td>
                             <td>5</td>
                         </tr>
                         <tr>
